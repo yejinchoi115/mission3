@@ -7,6 +7,7 @@
     var intexGrade = $("#intexGrade").val();
     var finalGrade = parseInt(hwGrade) + parseInt(gpGrade) + parseInt(qGrade) + parseInt(testGrade) + parseInt(intexGrade);
 
+    
     if (finalGrade >= 94)
         alert("Your final grade is " + finalGrade + ", A");
     else if ((finalGrade >= 90) & (finalGrade < 94))
